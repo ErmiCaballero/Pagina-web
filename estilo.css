@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+   /* background:#a708f1;*/
+    background: rgba(106, 32, 134, 0.80);
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+}
+.ancho{
+    width:80%;
+    height:70px;
+    /*background: red;*/
+    margin: auto; /*Queda centrado*/
+
+}
+.logo{
+    width: 30%;   
+    height: 70px;
+    /*background: blue;*/
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box; /*conserva el tamaño original del contenedor*/
+}
+.logo p  {
+    color:#fff;
+    font-size: 40px; 
+    text-decoration: none;
+    font-family: fuente;
+}
+nav{
+    width: 70%;
+    height: 70px ;
+    /*background: olive;*/
+    float: left;
+    text-align: right;
+    padding-top: 20px;
+}
+nav ul li{
+    display: inline; /*para mostrarlo en horizontal*/
+    color:#fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: fuente;
+}
+nav ul li:hover{ /* Salto de color*/
+    color:#444;
+}
+@font-face{
+    font-family: fuente;
+    src: url(Fuente/Exo_2/Exo2-Light.ttf)
+}

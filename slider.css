@@ -1,0 +1,30 @@
+#particles-js{
+    background: url(imagenes/Montañas.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    width: 100%;
+} 
+.ancho-letras{
+    z-index: 9;
+    top:200px;
+    position: absolute;
+    width:100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.67);
+}
+.letras-slider{
+    width: 80%;
+    margin: auto;
+}
+.letras-slider h1{
+    font-family: fuente;
+    color: #fff;
+    font-size: 70px;
+}
+.letras-slider p{
+    color: #AEAEAE;
+    font-size: 35px;
+    font-family: fuente;
+    padding-top: 20px;
+}
